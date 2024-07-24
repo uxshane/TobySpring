@@ -1,4 +1,4 @@
-package com.minkyu.hellospring.exrate;
+package com.minkyu.hellospring.payment;
 
 import java.io.IOException;
 import java.math.BigDecimal;

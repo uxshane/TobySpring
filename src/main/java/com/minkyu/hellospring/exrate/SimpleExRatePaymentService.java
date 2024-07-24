@@ -1,5 +1,6 @@
 package com.minkyu.hellospring.exrate;
 
+import com.minkyu.hellospring.payment.ExRateProvider;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;

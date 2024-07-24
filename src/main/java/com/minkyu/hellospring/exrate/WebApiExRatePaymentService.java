@@ -1,7 +1,7 @@
 package com.minkyu.hellospring.exrate;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.minkyu.hellospring.ExRateData;
+import com.minkyu.hellospring.payment.ExRateProvider;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,7 +12,7 @@ import java.net.URL;
 import java.util.stream.Collectors;
 
 //@Component
-public class WebApiExRatePaymentService implements ExRateProvider{
+public class WebApiExRatePaymentService implements ExRateProvider {
 
     @Override
     public BigDecimal getExRate(String currency) throws IOException {
