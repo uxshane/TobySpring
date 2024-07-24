@@ -1,6 +1,6 @@
-package com.minkyu.hellospring;
+package com.minkyu.hellospring.exrate;
 
-import com.minkyu.hellospring.exrate.ExRateProvider;
+import com.minkyu.hellospring.payment.ExRateProvider;
 
 import java.io.IOException;
 import java.math.BigDecimal;
