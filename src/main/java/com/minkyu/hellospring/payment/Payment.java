@@ -1,4 +1,4 @@
-package com.minkyu.hellospring;
+package com.minkyu.hellospring.payment;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
